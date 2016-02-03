@@ -263,14 +263,3 @@ precmd () {
 }
 RPROMPT="%1(v|%F{green}%1v%f|)"
 
-# pyenv
-#export PYENV_ROOT="${HOME}/.pyenv"
-#if [ -d "${PYENV_ROOT}" ]; then
-#    export PATH=${PYENV_ROOT}/bin:$PATH
-#    eval "$(pyenv init -)"
-#fi
-
-# anaconda
-export PATH="/Users/rsakamoto/anaconda/bin":${PATH}
-alias python3="${HOME}/Workspace/anaconda/bin/python3"
-alias conda3="${HOME}/Workspace/anaconda/bin/conda"
